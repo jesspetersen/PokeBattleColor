@@ -40,8 +40,8 @@ static bool initiate_watchface = true;
 
 #define NUM_LEVEL_PKEY  0
 #define NUM_LEVEL_FRESH 5
-char *ALLY_POKEMON_NAME = "CHARIZARD";
-char *ENEMY_POKEMON_NAME = "BLASTOISE";
+char *ALLY_POKEMON_NAME = "ARISTOTLE";
+char *ENEMY_POKEMON_NAME = "JOLTIK";
 
 
 int	X_DELTA = 35;

@@ -3,11 +3,80 @@
     "capabilities": [
         ""
     ],
-    "companyName": "birdmanherron@gmail.com",
-    "longName": "PokeBattle Color",
+    "companyName": "Jess Petersen",
+    "enableMultiJS": false,
+    "longName": "Jess' Custom PokeBattle Color",
     "projectType": "native",
     "resources": {
         "media": [
+            {
+                "file": "images/sleep.png",
+                "name": "STATUS_SLEEP",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/paralysis.png",
+                "name": "STATUS_PARALYSIS",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/menu.png",
+                "menuIcon": true,
+                "name": "MENU",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "images/colorBackground.png",
+                "name": "BACKGROUND",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "png"
+            },
+            {
+                "file": "fonts/Pokemon_GB.ttf",
+                "name": "FONT_DATE_7",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:]",
+                "file": "fonts/Pokemon_GB.ttf",
+                "name": "FONT_TIME_24",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "font"
+            },
+            {
+                "characterRegex": "[A-Z]",
+                "file": "fonts/Pokemon_GB.ttf",
+                "name": "FONT_NAME_8",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9]",
+                "file": "fonts/Pokemon_GB.ttf",
+                "name": "FONT_LEVEL_10",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "font"
+            },
             {
                 "file": "data/009.png",
                 "name": "ENEMY_POKEMON",
@@ -31,79 +100,11 @@
                     "basalt"
                 ],
                 "type": "raw"
-            },
-            {
-                "file": "images/sleep.png",
-                "name": "STATUS_SLEEP",
-                "targetPlatforms": [
-                    "basalt"
-                ],
-                "type": "png"
-            },
-            {
-                "file": "images/paralysis.png",
-                "name": "STATUS_PARALYSIS",
-                "targetPlatforms": [
-                    "basalt"
-                ],
-                "type": "png"
-            },
-            {
-                "file": "images/colorBackground.png",
-                "name": "BACKGROUND",
-                "targetPlatforms": [
-                    "basalt"
-                ],
-                "type": "png"
-            },
-            {
-                "characterRegex": "[0-9]",
-                "file": "fonts/Pokemon_GB.ttf",
-                "name": "FONT_LEVEL_10",
-                "targetPlatforms": [
-                    "basalt"
-                ],
-                "type": "font"
-            },
-            {
-                "characterRegex": "[A-Z]",
-                "file": "fonts/Pokemon_GB.ttf",
-                "name": "FONT_NAME_8",
-                "targetPlatforms": [
-                    "basalt"
-                ],
-                "type": "font"
-            },
-            {
-                "characterRegex": "[0-9:]",
-                "file": "fonts/Pokemon_GB.ttf",
-                "name": "FONT_TIME_24",
-                "targetPlatforms": [
-                    "basalt"
-                ],
-                "type": "font"
-            },
-            {
-                "file": "fonts/Pokemon_GB.ttf",
-                "name": "FONT_DATE_7",
-                "targetPlatforms": [
-                    "basalt"
-                ],
-                "type": "font"
-            },
-            {
-                "file": "images/menu.png",
-                "menuIcon": true,
-                "name": "MENU",
-                "targetPlatforms": [
-                    "basalt"
-                ],
-                "type": "png"
             }
         ]
     },
     "sdkVersion": "3",
-    "shortName": "PokeBattle Color",
+    "shortName": "Custom PokeBattle Color",
     "targetPlatforms": [
         "basalt"
     ],
